@@ -32,7 +32,7 @@ const Contact = () => {
                   <div>
                     <p className="text-sm text-muted-foreground">E-mail</p>
                     <p className="font-medium text-foreground group-hover:text-accent transition-colors">
-                      seuemail@email.com
+                      danielsdcruz01@email.com
                     </p>
                   </div>
                 </a>
@@ -47,7 +47,7 @@ const Contact = () => {
                   <div>
                     <p className="text-sm text-muted-foreground">Telefone</p>
                     <p className="font-medium text-foreground group-hover:text-accent transition-colors">
-                      +55 (11) 99999-9999
+                      +55 (11) 93088-1957
                     </p>
                   </div>
                 </a>
@@ -58,7 +58,7 @@ const Contact = () => {
                 <h3 className="font-heading font-bold text-lg mb-6">Redes Sociais</h3>
                 <div className="flex gap-4">
                   <a
-                    href="https://linkedin.com/in/seu-perfil"
+                    href="https://www.linkedin.com/in/daniel-santos-cruz-/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center hover:bg-accent transition-colors group"
@@ -66,20 +66,12 @@ const Contact = () => {
                     <Linkedin className="w-5 h-5 text-foreground group-hover:text-accent-foreground transition-colors" />
                   </a>
                   <a
-                    href="https://github.com/seu-usuario"
+                    href="https://github.com/danielsantos011"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center hover:bg-accent transition-colors group"
                   >
                     <Github className="w-5 h-5 text-foreground group-hover:text-accent-foreground transition-colors" />
-                  </a>
-                  <a
-                    href="https://instagram.com/seu-usuario"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center hover:bg-accent transition-colors group"
-                  >
-                    <Instagram className="w-5 h-5 text-foreground group-hover:text-accent-foreground transition-colors" />
                   </a>
                 </div>
               </div>

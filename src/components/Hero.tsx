@@ -1,4 +1,5 @@
 import { MapPin } from "lucide-react";
+import profilePhoto from "@/assets/daniel.png";
 
 const Hero = () => {
   return (
@@ -11,10 +12,12 @@ const Hero = () => {
               {/* Background decoration */}
               <div className="absolute inset-0 accent-gradient rotate-6 rounded-lg" />
               <div className="absolute inset-0 bg-primary -rotate-3 rounded-lg" />
-              {/* Image placeholder */}
-              <div className="relative w-full h-full bg-secondary rounded-lg overflow-hidden flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Sua foto aqui</span>
-              </div>
+              {/* Profile photo */}
+              <img 
+                src={profilePhoto} 
+                alt="Foto de perfil" 
+                className="relative w-full h-full object-cover rounded-lg"
+              />
             </div>
           </div>
 
@@ -27,8 +30,8 @@ const Hero = () => {
             
             <h1 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl leading-tight text-foreground mb-6">
               Desenvolvedor<br />
-              Front End &<br />
-              UX/UI Designer
+              Back End &<br />
+              Databsae
             </h1>
             
             <div className="flex items-center gap-2 text-muted-foreground">

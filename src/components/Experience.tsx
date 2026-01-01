@@ -11,29 +11,14 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    year: "2024",
-    title: "Projeto Alpha",
-    role: "Desenvolvedor Front-End e UI/UX Designer",
-    description: "Desenvolvimento de interfaces modernas e responsivas, utilizando React e Figma para criar experiências de usuário excepcionais.",
-    skills: ["React", "TypeScript", "Tailwind CSS", "Figma"],
-    link: "#",
-  },
-  {
-    year: "2023 - 2024",
-    title: "Projeto Beta",
-    role: "Desenvolvedor Full-Stack e Product Owner",
-    description: "Liderança no desenvolvimento da plataforma, desde a definição das funcionalidades até a implementação completa do sistema.",
-    skills: ["Next.js", "Node.js", "PostgreSQL", "UI Design"],
-    link: "#",
-  },
-  {
-    year: "2023",
-    title: "Projeto Gamma",
+    year: "2025",
+    title: "Visão Perifa",
     role: "Desenvolvedor Front-End",
-    description: "Desenvolvimento de aplicações web performáticas com foco em usabilidade e acessibilidade.",
-    skills: ["Vue.js", "JavaScript", "SCSS", "Git"],
-    link: "#",
+    description: "Desenvolvimento de interfaces modernas e responsivas, utilizando React e Figma para criar experiências de usuário excepcionais.",
+    skills: ["CSS", "HTML", "Tailwind CSS", "Figma", "JavaScript"],
+    link: "https://visaoperifa.site/",
   },
+
 ];
 
 const Experience = () => {
@@ -51,10 +36,9 @@ const Experience = () => {
           {/* Content */}
           <div className="space-y-8 relative z-10">
             <p className="text-lg text-foreground/80 max-w-2xl mb-12">
-              Atuei no desenvolvimento de produtos digitais em diversos projetos, 
-              contribuindo desde interfaces e experiência do usuário até estrutura 
-              e funcionalidades-chave, sempre com foco em eficiência, usabilidade 
-              e entrega de soluções modernas e funcionais.
+              Atuei no desenvolvimento sistemas para web com foco no desenvolvimento estético
+              e lógico da aplicação. Possibilitando uma experiência inovadora para o consumidor
+              final do projeto.
             </p>
 
             {/* Experience Items */}
