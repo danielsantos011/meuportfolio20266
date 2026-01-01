@@ -8,63 +8,63 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 8%;
+    --background: 30 15% 97%;
+    --foreground: 20 10% 12%;
 
-    --card: 0 0% 98%;
-    --card-foreground: 0 0% 8%;
+    --card: 30 10% 94%;
+    --card-foreground: 20 10% 12%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 8%;
+    --popover: 30 15% 97%;
+    --popover-foreground: 20 10% 12%;
 
-    --primary: 0 0% 8%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 20 10% 12%;
+    --primary-foreground: 30 15% 97%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 8%;
+    --secondary: 30 8% 90%;
+    --secondary-foreground: 20 10% 12%;
 
-    --muted: 0 0% 92%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 30 8% 88%;
+    --muted-foreground: 20 8% 45%;
 
-    --accent: 75 80% 50%;
-    --accent-foreground: 0 0% 8%;
+    --accent: 12 76% 61%;
+    --accent-foreground: 30 15% 97%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 75 80% 50%;
+    --border: 30 10% 88%;
+    --input: 30 10% 88%;
+    --ring: 12 76% 61%;
 
     --radius: 0.5rem;
 
     /* Custom portfolio tokens */
-    --hero-text: 0 0% 8%;
-    --section-title: 0 0% 92%;
-    --link-hover: 75 80% 50%;
+    --hero-text: 20 10% 12%;
+    --section-title: 30 8% 92%;
+    --link-hover: 12 76% 61%;
     
     --font-heading: 'Poppins', sans-serif;
     --font-body: 'Inter', sans-serif;
   }
 
   .dark {
-    --background: 0 0% 8%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 8%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 8%;
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 65%;
-    --accent: 75 80% 50%;
-    --accent-foreground: 0 0% 8%;
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --section-title: 0 0% 15%;
+    --background: 20 15% 8%;
+    --foreground: 30 15% 95%;
+    --card: 20 12% 12%;
+    --card-foreground: 30 15% 95%;
+    --popover: 20 15% 8%;
+    --popover-foreground: 30 15% 95%;
+    --primary: 30 15% 95%;
+    --primary-foreground: 20 15% 8%;
+    --secondary: 20 10% 15%;
+    --secondary-foreground: 30 15% 95%;
+    --muted: 20 10% 18%;
+    --muted-foreground: 30 10% 60%;
+    --accent: 12 76% 61%;
+    --accent-foreground: 30 15% 97%;
+    --border: 20 10% 18%;
+    --input: 20 10% 18%;
+    --section-title: 20 10% 12%;
   }
 }
 
@@ -107,7 +107,7 @@
   }
 
   .accent-gradient {
-    background: linear-gradient(135deg, hsl(75, 80%, 50%) 0%, hsl(85, 70%, 45%) 100%);
+    background: linear-gradient(135deg, hsl(12, 76%, 61%) 0%, hsl(25, 85%, 55%) 100%);
   }
 
   .experience-card {
